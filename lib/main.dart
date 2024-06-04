@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
         decoration: const BoxDecoration(
             image: DecorationImage(
                 image: NetworkImage(
-                    'https://raw.githubusercontent.com/AlexaZamoraDominguez/Img_FlutterFlow_IOS_6J/main/img1.jpg'),
+                    'https://raw.githubusercontent.com/dianadianaxd/Act12NavBar-6j/main/Act13_GrindView_6j/AirPods%20Max.jpg'),
                 fit: BoxFit.cover)),
         child: Scaffold(
           backgroundColor: Colors.transparent,
@@ -28,7 +28,7 @@ class Login extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.network(
-                    'https://raw.githubusercontent.com/AlexaZamoraDominguez/Img_FlutterFlow_IOS_6J/main/img8.jpg',
+                    'https://raw.githubusercontent.com/dianadianaxd/Act12NavBar-6j/main/Act13_GrindView_6j/muestra2.png',
                     width: 120,
                   )
                 ],
@@ -38,11 +38,11 @@ class Login extends StatelessWidget {
                 padding: const EdgeInsets.all(30),
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Color(0xffd8f2e3),
                       borderRadius: BorderRadius.circular(20),
                       boxShadow: const [
                         BoxShadow(
-                            color: Color(0xffa1301c),
+                            color: Color(0xff196125),
                             blurRadius: 10,
                             offset: Offset(0, 4))
                       ]),
@@ -51,15 +51,16 @@ class Login extends StatelessWidget {
                     children: [
                       Container(
                         padding: const EdgeInsets.all(10),
-                        child: const Text('Nike Calzado',
+                        child: const Text('Apple Shop',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 25,
-                                color: Color(0xffb52a20))),
+                                color: Color(0xff89bc9d))),
                       ),
                       Container(
                         padding: const EdgeInsets.all(5),
-                        child: const Text('Bienvenid@',
+                        child: const Text(
+                            'Bienvenida(o), Inicia sesión o crea una cuenta',
                             style: TextStyle(fontSize: 20)),
                       ),
                       const SizedBox(height: 30),
@@ -69,7 +70,7 @@ class Login extends StatelessWidget {
                         child: TextField(
                           autofocus: false,
                           decoration: InputDecoration(
-                              hintText: 'Usuario',
+                              hintText: 'Usuario o correo electrónico',
                               prefixIcon: Icon(Icons.person),
                               contentPadding: EdgeInsets.all(10),
                               hintStyle:
@@ -106,7 +107,7 @@ class Login extends StatelessWidget {
                               Padding(
                                 padding: EdgeInsets.all(20),
                                 child: Text(
-                                  'Inicia Sesión',
+                                  'Iniciar Sesión',
                                   style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
@@ -116,7 +117,7 @@ class Login extends StatelessWidget {
                             ],
                           ),
                           decoration: BoxDecoration(
-                              color: Colors.red,
+                              color: Color(0xff9bd7aa),
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(20),
                                   bottomRight: Radius.circular(20))),
